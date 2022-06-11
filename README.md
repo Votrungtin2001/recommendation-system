@@ -8,6 +8,7 @@
    1.2 [Các thành phần cơ bản](#Các-thành-phần-cơ-bản)
 
    1.3 [Hướng tiếp cận](#Hướng-tiếp-cận)
+   
    1.4 [Những bước cần làm để xây dựng một Recommendation System:](#Những-bước-cần-làm-để-xây-dựng-một-Recommendation-System:)
 
 1. [CONTENT-BASED FILTERING RECOMMENDERS VÀ COLLABORATIVE FILTERING RECOMMENDERS](#CONTENT-BASED-FILTERING-RECOMMENDERS-VÀ-COLLABORATIVE-FILTERING-RECOMMENDERS)
@@ -51,6 +52,11 @@ Bước 2: Phân tích và áp dụng giải thuật filtering phù hợp.
 Bước 3: Tiến hành training mô hình.
 
 Nhìn chung, hệ thống Recommender System có thể được chia thành 4 loại chính:
+
+<p align="center">
+    <img src="https://github.com/Votrungtin2001/recommendation-system/blob/main/picture/image32.png" width="auto">
+   </p>
+   
 - Simple Recommenders (Đề xuất đơn giản): Đưa ra các đề xuất tổng quát cho mọi người dùng, dựa trên mức độ phổ biến và/hoặc thể loại của đối tượng đang chọn để gợi ý (có thể là một bộ phim, một bài nhạc, một sản phẩm, vv…).
 
 - Content-based Filtering Recommenders (Đề xuất dựa trên nội dung): Đề xuất các đối tượng muốn gợi ý tương tự dựa trên một đối tượng cụ thể khác.
@@ -151,6 +157,9 @@ Collaborative Filtering: Nhận ra người sử dụng trong U tượng tự v�
 
 Áp dựng Content-based Filtering Recommender
 
+<p align="center">
+    <img src="https://github.com/Votrungtin2001/recommendation-system/blob/main/picture/image5.png" width="auto">
+   </p>
 Bước 1: Ở flutter trước khi request danh sách các sản phẩm phù hợp với sở thích người dùng sẽ dựa trên database phần Preference để chọn ra criteria (bộ 5 tiêu chí xem xét với tần số xuất hiện cao nhất). 
 	Ví dụ: Trong 50 lượt thao tác với sản phẩm gần nhất của người dùng
 		brandHistory : 
