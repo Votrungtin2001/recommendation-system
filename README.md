@@ -9,7 +9,7 @@
 
    1.3 [Hướng tiếp cận](#Hướng-tiếp-cận)
    
-   1.4 [Những bước cần làm để xây dựng một Recommendation System:](#Những-bước-cần-làm-để-xây-dựng-một-Recommendation-System:)
+   1.4 [Những bước cần làm để xây dựng một Recommendation System](#Những-bước-cần-làm-để-xây-dựng-một-Recommendation-System)
 
 1. [CONTENT-BASED FILTERING RECOMMENDERS VÀ COLLABORATIVE FILTERING RECOMMENDERS](#CONTENT-BASED-FILTERING-RECOMMENDERS-VÀ-COLLABORATIVE-FILTERING-RECOMMENDERS)
 
@@ -65,7 +65,7 @@ Nhìn chung, hệ thống Recommender System có thể được chia thành 4 lo
 
 - Hybrid Recommenders: Hybrid Filtering là sự kết hợp của hai giải thuật Content-based Filtering và Collaborative Filtering: Hybrid Filtering được sử dụng mềm dẻo khi hệ thống Collaborative Filtering không có các hành vi (ratings), khi đó hệ thống sẽ sử dụng Content-based Filtering và ngược lại, khi Content-based Filtering không có các feature cần thiết trong việc đánh giá thì hệ thống sẽ sử dụng Collaborative Filtering để thay thế.
 
-### Những bước cần làm để xây dựng một Recommendation System:
+### Những bước cần làm để xây dựng một Recommendation System
 
 Thu thập dữ liệu:
 
