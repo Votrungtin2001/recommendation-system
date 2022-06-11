@@ -1,6 +1,6 @@
 # Recommendation System for Be Beauty
 
-##Content
+## Content
 1. [Recommendation System](#Recommendation-System)
 
    1.1 [Định nghĩa](#Định-nghĩa)
@@ -43,6 +43,6 @@ Bước 2: Phân tích và áp dụng giải thuật filtering phù hợp.
 Bước 3: Tiến hành training mô hình.
 
 <p align="center">
-   <img src="https://lh3.googleusercontent.com/keep-bbsk/AGk0z-Oid-s_JfOvTBfXaTVErq1teAouiRpTLT7i3lX4raTd9ZH19Bfmmi4HEOkdrvuljSRwMCeKMK264z-8XZvzIVSiBczRs9st2ZRCy_Q=s512" height = "510" width="245">
+   <img src="https://drive.google.com/file/d/14P2hY8cV9bFiGM4SqB6IkyqryXkBShvi/view?usp=sharing">
 </p>
  
