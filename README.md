@@ -181,7 +181,7 @@ Quy tắc xét: Lấy 5 thuộc tính tương tự của product đang xét bao 
    Ví dụ: Product 1 (3,1,2,2,5): Nếu giá trị tương ứng với criteria thì giá trị biến matching sẽ là 1. Nếu khác thì sẽ là 0. Công thức tính similarities trong trường hợp này:
 	
    <p align="center">
-    <img src="[https://github.com/Votrungtin2001/recommendation-system/blob/main/picture/C%C3%B4ng%20th%E1%BB%A9c.png">
+    <img src="https://github.com/Votrungtin2001/recommendation-system/blob/main/picture/C%C3%B4ng%20th%E1%BB%A9c.png" width="auto">
    </p>
 
 Tính toán tương tự với các sản phẩm còn lại: Sau mỗi lần tính sẽ thêm vào mảng một chiều phần tử đó bao gồm (id, độ tương tự).
